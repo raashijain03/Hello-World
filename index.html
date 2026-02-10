@@ -7,7 +7,7 @@
       name="description"
       content="The Green Room creates luxury desk-to-dinner workwear for modern women who lead with authority, elegance, and quiet confidence."
     />
-    <title>The Green Room | Luxury Women's Workwear</title>
+    <title>The Green Room | The Moment Before Presence</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,16 +16,16 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="page-home">
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="site-header" id="top">
       <p class="announcement">
-        Private fitting appointments now open in London and New York.
+        Mood-led catalog is now live. Build your desk-to-dinner wardrobe.
       </p>
 
       <div class="container nav-shell">
-        <a class="brand-mark" href="#top" aria-label="The Green Room home">
+        <a class="brand-mark" href="index.html" aria-label="The Green Room home">
           <span>THE GREEN ROOM</span>
         </a>
 
@@ -41,10 +41,10 @@
 
         <nav class="primary-nav" id="primary-nav" aria-label="Primary">
           <ul>
-            <li><a href="#manifesto">Manifesto</a></li>
-            <li><a href="#collection">Collection</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Mood Catalog</a></li>
             <li><a href="#journal">Journal</a></li>
-            <li><a href="#concierge">Concierge</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
           <a class="button button-small" href="#concierge">Book a fitting</a>
         </nav>
@@ -52,47 +52,32 @@
     </header>
 
     <main id="main-content">
-      <section class="hero section container reveal">
-        <div class="hero-content">
-          <p class="eyebrow">Luxury Women's Workwear</p>
-          <h1>
-            The moment before presence.<br />
-            Tailored for every room that matters.
-          </h1>
+      <section class="video-landing">
+        <video class="video-media" autoplay muted loop playsinline>
+          <source
+            src="https://videos.pexels.com/video-files/3761509/3761509-hd_1920_1080_25fps.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="video-overlay"></div>
+        <div class="container video-content">
+          <p class="eyebrow">Videographic Landing</p>
+          <h1>Prepare in private. Enter every room with power.</h1>
           <p class="hero-copy">
-            The Green Room is the private space before visibility. We design
-            desk-to-dinner clothing that carries authority, elegance, and quiet
-            confidence from first briefing to final reservation.
+            The Green Room is the moment before presence. Our luxury workwear is
+            built for women who lead with precision at 9:00 and host with ease
+            at 9:00.
           </p>
           <div class="hero-actions">
-            <a class="button" href="#collection">Shop the collection</a>
-            <a class="button button-ghost" href="#manifesto">Read manifesto</a>
+            <a class="button" href="catalog.html">Shop by mood</a>
+            <a class="button button-ghost button-ghost-light" href="contact.html"
+              >Contact us</a
+            >
           </div>
-          <dl class="hero-metrics">
-            <div>
-              <dt>Designed for movement</dt>
-              <dd>Structured silhouettes with fluid comfort</dd>
-            </div>
-            <div>
-              <dt>Desk to dinner</dt>
-              <dd>From 8:00 AM strategy to 8:00 PM celebration</dd>
-            </div>
-            <div>
-              <dt>Limited production</dt>
-              <dd>Intentional drops, responsible craftsmanship</dd>
-            </div>
-          </dl>
-        </div>
-        <div class="hero-visual" role="img" aria-label="Elegant styling vignette">
-          <div class="visual-card primary">
-            <p>Signature Suiting</p>
-            <h2>The Sovereign Set</h2>
-            <span>Italian wool, silk lining, sculpted shoulder</span>
-          </div>
-          <div class="visual-card secondary">
-            <p>Evening Layering</p>
-            <h2>The Quiet Drape</h2>
-            <span>From boardroom edge to candlelit polish</span>
+          <div class="video-tags">
+            <span>Desk to dinner</span>
+            <span>Quiet confidence</span>
+            <span>Emotion-led luxury</span>
           </div>
         </div>
       </section>
@@ -101,18 +86,49 @@
         <div class="container manifesto-grid">
           <div>
             <p class="eyebrow">Our Philosophy</p>
-            <h2>Emotion-led luxury for women with direction.</h2>
+            <h2>Identity-led luxury for women with direction.</h2>
           </div>
           <div>
             <p>
-              We do not chase trends. We build a lasting wardrobe for the woman
-              who enters rooms with intention and leaves a mark without
-              performance. Every piece is designed to feel like preparation:
-              composed, elevated, and deeply personal.
+              We do not chase trends. We design lasting silhouettes for women
+              who prepare deeply, speak clearly, and move with intention.
             </p>
             <p>
-              The Green Room is not a costume. It is a language of self-trust.
+              The Green Room is not costume. It is a wardrobe language of
+              authority, elegance, and calm self-trust.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section mood-section reveal">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Mood Pathways</p>
+            <h2>Choose what you wear by how you need to feel.</h2>
+          </div>
+
+          <div class="mood-gateway-grid">
+            <a class="mood-link-card" href="catalog.html?mood=focused">
+              <p class="mood-label">Focused</p>
+              <h3>For sharp mornings and strategic meetings</h3>
+              <span>Explore focused edit</span>
+            </a>
+            <a class="mood-link-card" href="catalog.html?mood=confident">
+              <p class="mood-label">Confident</p>
+              <h3>For visible leadership and high-stakes rooms</h3>
+              <span>Explore confident edit</span>
+            </a>
+            <a class="mood-link-card" href="catalog.html?mood=creative">
+              <p class="mood-label">Creative</p>
+              <h3>For studio days, ideation, and fluid movement</h3>
+              <span>Explore creative edit</span>
+            </a>
+            <a class="mood-link-card" href="catalog.html?mood=evening">
+              <p class="mood-label">Evening</p>
+              <h3>For transition from boardroom close to dinner glow</h3>
+              <span>Explore evening edit</span>
+            </a>
           </div>
         </div>
       </section>
@@ -128,19 +144,23 @@
             <article class="collection-card">
               <h3>08:30 - The Briefing</h3>
               <p>
-                Precision tailoring, softened with stretch. Clean lines for
-                focus and movement in equal measure.
+                Precision tailoring softened with stretch for focus, movement,
+                and all-day authority.
               </p>
-              <a href="#" aria-label="Explore briefing looks">Explore looks</a>
+              <a href="catalog.html?mood=focused" aria-label="Explore focused edit"
+                >Explore looks</a
+              >
             </article>
 
             <article class="collection-card">
               <h3>14:00 - The Decision Room</h3>
               <p>
-                Power suiting that signals authority without excess. Designed to
-                command attention before you speak.
+                Suiting that commands attention before you speak and remains
+                effortless after the meeting.
               </p>
-              <a href="#" aria-label="Explore decision room looks"
+              <a
+                href="catalog.html?mood=confident"
+                aria-label="Explore confident edit"
                 >Explore looks</a
               >
             </article>
@@ -148,10 +168,12 @@
             <article class="collection-card">
               <h3>19:30 - The Reservation</h3>
               <p>
-                Transformative layers and luminous textures that shift the mood
-                while keeping your edge.
+                Luminous textures and polished layers for the mood shift into
+                evening.
               </p>
-              <a href="#" aria-label="Explore evening looks">Explore looks</a>
+              <a href="catalog.html?mood=evening" aria-label="Explore evening edit"
+                >Explore looks</a
+              >
             </article>
           </div>
         </div>
@@ -204,33 +226,6 @@
         </div>
       </section>
 
-      <section class="section code reveal">
-        <div class="container code-grid">
-          <div>
-            <p class="eyebrow">The Green Room Code</p>
-            <h2>How we design for identity, not trend.</h2>
-          </div>
-          <ul>
-            <li>
-              <strong>Intentionality first:</strong> every seam serves movement
-              and purpose.
-            </li>
-            <li>
-              <strong>Quiet confidence:</strong> elevated details over loud
-              ornament.
-            </li>
-            <li>
-              <strong>Longevity always:</strong> a collectible wardrobe, season
-              after season.
-            </li>
-            <li>
-              <strong>Presence as ritual:</strong> dressing as preparation, not
-              performance.
-            </li>
-          </ul>
-        </div>
-      </section>
-
       <section class="section journal reveal" id="journal">
         <div class="container">
           <div class="section-heading">
@@ -242,7 +237,7 @@
               <p class="journal-meta">Editorial - 6 min read</p>
               <h3>Dressing for decisive mornings</h3>
               <p>
-                Building a five-piece capsule that removes decision fatigue while
+                Build a five-piece capsule that removes decision fatigue while
                 amplifying authority.
               </p>
             </article>
@@ -250,8 +245,8 @@
               <p class="journal-meta">Interview - 8 min read</p>
               <h3>Inside the routine before the boardroom</h3>
               <p>
-                Three women leaders share what preparation looks like in private
-                before high-stakes visibility.
+                Three women leaders share what preparation looks like before
+                high-stakes visibility.
               </p>
             </article>
             <article>
@@ -277,19 +272,32 @@
             </p>
           </div>
           <form class="concierge-form">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" placeholder="Your name" />
-
-            <label for="email">Email</label>
+            <label for="home-name">Name</label>
             <input
-              id="email"
+              id="home-name"
+              name="name"
+              type="text"
+              placeholder="Your name"
+              required
+            />
+
+            <label for="home-email">Email</label>
+            <input
+              id="home-email"
               name="email"
               type="email"
               placeholder="you@example.com"
+              required
             />
 
-            <label for="city">City</label>
-            <input id="city" name="city" type="text" placeholder="London" />
+            <label for="home-city">City</label>
+            <input
+              id="home-city"
+              name="city"
+              type="text"
+              placeholder="London"
+              required
+            />
 
             <button type="submit" class="button">Request invitation</button>
           </form>
@@ -300,7 +308,7 @@
     <footer class="site-footer">
       <div class="container footer-grid">
         <div>
-          <a class="brand-mark footer-brand" href="#top">THE GREEN ROOM</a>
+          <a class="brand-mark footer-brand" href="index.html">THE GREEN ROOM</a>
           <p>
             Luxury women's workwear for the moment before presence and every
             room that follows.
@@ -314,16 +322,17 @@
               id="newsletter-email"
               type="email"
               placeholder="Email address"
+              required
             />
             <button type="submit" class="button button-small">Join</button>
           </div>
         </form>
 
         <div class="footer-links">
-          <a href="#">Shipping & returns</a>
-          <a href="#">Client services</a>
-          <a href="#">Privacy</a>
-          <a href="#">Instagram</a>
+          <a href="catalog.html">Mood Catalog</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="#concierge">Client Services</a>
+          <a href="https://instagram.com" rel="noreferrer noopener">Instagram</a>
         </div>
       </div>
       <p class="copyright">

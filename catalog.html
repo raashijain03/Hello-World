@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shop The Green Room by mood and order luxury desk-to-dinner workwear."
+    />
+    <title>The Green Room | Mood Catalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-catalog">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <p class="announcement">Mood-led styling. Select pieces and place your order.</p>
+
+      <div class="container nav-shell">
+        <a class="brand-mark" href="index.html" aria-label="The Green Room home">
+          <span>THE GREEN ROOM</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Toggle navigation menu"
+        >
+          Menu
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Mood Catalog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a class="button button-small" href="contact.html">Stylist support</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="page-main">
+      <section class="section page-intro reveal">
+        <div class="container">
+          <p class="eyebrow">Mood Catalog</p>
+          <h1>Choose your mood. Build your look. Place your order.</h1>
+          <p class="hero-copy">
+            Start with how you need to feel today and discover pieces designed
+            for that energy, from focused meetings to evening transitions.
+          </p>
+        </div>
+      </section>
+
+      <section class="section catalog-section reveal">
+        <div class="container catalog-layout">
+          <div>
+            <div class="mood-filters" role="group" aria-label="Filter by mood">
+              <button class="mood-filter is-active" data-mood-filter="all" type="button">
+                All moods
+              </button>
+              <button class="mood-filter" data-mood-filter="focused" type="button">
+                Focused
+              </button>
+              <button class="mood-filter" data-mood-filter="confident" type="button">
+                Confident
+              </button>
+              <button class="mood-filter" data-mood-filter="creative" type="button">
+                Creative
+              </button>
+              <button class="mood-filter" data-mood-filter="evening" type="button">
+                Evening
+              </button>
+            </div>
+
+            <div class="catalog-grid">
+              <article
+                class="product-card"
+                data-product-card
+                data-moods="focused confident"
+                data-product-id="sovereign-blazer"
+                data-product-name="Sovereign Blazer"
+                data-product-price="420"
+              >
+                <div class="product-visual">
+                  <span class="product-pill">Focused + Confident</span>
+                </div>
+                <h3>Sovereign Blazer</h3>
+                <p>Structured shoulder, sculpted waist, and all-day comfort.</p>
+                <div class="product-meta">
+                  <span>$420</span>
+                  <button class="button button-small add-to-order" type="button">
+                    Add to order
+                  </button>
+                </div>
+              </article>
+
+              <article
+                class="product-card"
+                data-product-card
+                data-moods="focused creative"
+                data-product-id="foundation-trouser"
+                data-product-name="Foundation Trouser"
+                data-product-price="260"
+              >
+                <div class="product-visual">
+                  <span class="product-pill">Focused + Creative</span>
+                </div>
+                <h3>Foundation Trouser</h3>
+                <p>High-rise tailoring with fluid drape and repeat confidence.</p>
+                <div class="product-meta">
+                  <span>$260</span>
+                  <button class="button button-small add-to-order" type="button">
+                    Add to order
+                  </button>
+                </div>
+              </article>
+
+              <article
+                class="product-card"
+                data-product-card
+                data-moods="creative evening"
+                data-product-id="quiet-drape-top"
+                data-product-name="Quiet Drape Top"
+                data-product-price="195"
+              >
+                <div class="product-visual">
+                  <span class="product-pill">Creative + Evening</span>
+                </div>
+                <h3>Quiet Drape Top</h3>
+                <p>Soft movement with subtle shine for day-to-night polish.</p>
+                <div class="product-meta">
+                  <span>$195</span>
+                  <button class="button button-small add-to-order" type="button">
+                    Add to order
+                  </button>
+                </div>
+              </article>
+
+              <article
+                class="product-card"
+                data-product-card
+                data-moods="confident evening"
+                data-product-id="threshold-dress"
+                data-product-name="Threshold Dress"
+                data-product-price="350"
+              >
+                <div class="product-visual">
+                  <span class="product-pill">Confident + Evening</span>
+                </div>
+                <h3>Threshold Dress</h3>
+                <p>Minimal silhouette that holds shape from keynote to dinner.</p>
+                <div class="product-meta">
+                  <span>$350</span>
+                  <button class="button button-small add-to-order" type="button">
+                    Add to order
+                  </button>
+                </div>
+              </article>
+
+              <article
+                class="product-card"
+                data-product-card
+                data-moods="focused confident evening"
+                data-product-id="command-coat"
+                data-product-name="Command Coat"
+                data-product-price="520"
+              >
+                <div class="product-visual">
+                  <span class="product-pill">Focused + Confident + Evening</span>
+                </div>
+                <h3>Command Coat</h3>
+                <p>Lightweight layer with clean architecture and quiet impact.</p>
+                <div class="product-meta">
+                  <span>$520</span>
+                  <button class="button button-small add-to-order" type="button">
+                    Add to order
+                  </button>
+                </div>
+              </article>
+
+              <article
+                class="product-card"
+                data-product-card
+                data-moods="creative evening"
+                data-product-id="prelude-knit"
+                data-product-name="Prelude Knit"
+                data-product-price="220"
+              >
+                <div class="product-visual">
+                  <span class="product-pill">Creative + Evening</span>
+                </div>
+                <h3>Prelude Knit</h3>
+                <p>Fine-gauge knit for layered comfort and expressive styling.</p>
+                <div class="product-meta">
+                  <span>$220</span>
+                  <button class="button button-small add-to-order" type="button">
+                    Add to order
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <aside class="order-panel">
+            <div>
+              <p class="eyebrow">Selected Pieces</p>
+              <h2>Your order</h2>
+            </div>
+
+            <ul id="order-items" class="order-items"></ul>
+
+            <div class="order-total-row">
+              <span>Total</span>
+              <strong id="order-total">$0</strong>
+            </div>
+
+            <button id="clear-order" type="button" class="button button-ghost">
+              Clear order
+            </button>
+
+            <form id="order-form" class="order-form">
+              <label for="order-name">Full name</label>
+              <input id="order-name" name="name" type="text" required />
+
+              <label for="order-email">Email</label>
+              <input id="order-email" name="email" type="email" required />
+
+              <label for="order-address">Shipping address</label>
+              <textarea id="order-address" name="address" rows="3" required></textarea>
+
+              <label for="order-notes">Styling note (optional)</label>
+              <textarea id="order-notes" name="notes" rows="3"></textarea>
+
+              <button type="submit" class="button">Place order request</button>
+              <p id="order-error" class="form-error" aria-live="polite"></p>
+            </form>
+
+            <div id="order-confirmation" class="form-confirmation" hidden>
+              Thank you. Your order request is received. Our client team will
+              confirm fit and payment details by email.
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand-mark footer-brand" href="index.html">THE GREEN ROOM</a>
+          <p>
+            Luxury women's workwear for the moment before presence and every
+            room that follows.
+          </p>
+        </div>
+
+        <form class="newsletter">
+          <label for="newsletter-email">Join the private newsletter</label>
+          <div class="newsletter-row">
+            <input
+              id="newsletter-email"
+              type="email"
+              placeholder="Email address"
+              required
+            />
+            <button type="submit" class="button button-small">Join</button>
+          </div>
+        </form>
+
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="catalog.html">Mood Catalog</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="https://instagram.com" rel="noreferrer noopener">Instagram</a>
+        </div>
+      </div>
+      <p class="copyright">
+        &copy; <span id="year"></span> The Green Room. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
